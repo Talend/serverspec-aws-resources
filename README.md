@@ -12,7 +12,7 @@ run serverspec-init against that project.  For more information on serverspec, p
 
 1. To make these aws types available for serverspec's use, add the line to your project's Gemfile:
 
-        gem 'serverspec-aws-resources', :github => 'stelligent/serverspec-aws-resources'
+        gem 'serverspec-aws-resources', :github => 'talend/serverspec-aws-resources'
 
 2. Run bundle install
 
@@ -38,7 +38,7 @@ here is a list of commands to get everything bootstrapped.  For more information
     source 'https://rubygems.org'
 
     gem 'serverspec'
-    gem 'serverspec-aws-resources', :github => 'stelligent/serverspec-aws-resources'
+    gem 'serverspec-aws-resources', :github => 'talend/serverspec-aws-resources'
     END
 
     bundle install
